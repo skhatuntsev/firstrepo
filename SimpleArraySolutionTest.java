@@ -40,7 +40,7 @@ public class SimpleArraySolutionTest {
 
         @Test
         public void main () throws Exception {
-            CollectionsSolution.main(new String[] {});
+            SimpleArraySolution.main(new String[] {});
             assertThat(outContent.toString(), containsString( "56 57 "));
 
 
